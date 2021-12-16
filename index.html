@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Kirang+Haerang&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="./css/style.css">
-
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Kirang+Haerang&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Rock Paper Scissors</title>
-</head>
-<body>
-   <div id="heading"><h1>Rock Paper Scissors</h1></div> 
-   
-   <div id="score">
-       <div>
-           <h2>Your Score
-               <h2 id="playerScore"></h2>
-            </h2>
-           
-        </div>
-       <div>
-           <h2>Computer Score
-               <h2 id ="computerScore"></h2>
+  </head>
+
+  <body>
+    <div id="heading">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+
+    <div id="score">
+      <div>
+        <h2>
+          Your Score
+          <h2 id="playerScore"></h2>
         </h2>
-           
-        </div>
-   </div>
-   <div id="result">
-    <h1 id=finalResult>First to 5 Wins! </h1>
-   </div>
-   <div id="buttons">
-       <button class="things" id="rock" data-rps="rock">
-           <i class="fa fa-hand-grab-o"></i>
-       </button>
-       <button class="things" id="paper" data-rps="paper">
-           <i class="fa fa-hand-paper-o"></i>
-       </button>
-       <button class="things" id="Scissor" data-rps="scissor">
-           <i class="fa fa-hand-scissors-o"></i>
-       </button>
-   </div>
+      </div>
+      <div>
+        <h2>
+          Computer Score
+          <h2 id="computerScore"></h2>
+        </h2>
+      </div>
+    </div>
+    <div id="result">
+      <h1 id="finalResult">First to 5 Wins!</h1>
+    </div>
+    <div id="buttons">
+      <button class="things" data-rps="rock">
+        <i class="fa fa-hand-grab-o"></i>
+      </button>
+      <button class="things" data-rps="paper">
+        <i class="fa fa-hand-paper-o"></i>
+      </button>
+      <button class="things" data-rps="scissor">
+        <i class="fa fa-hand-scissors-o"></i>
+      </button>
+    </div>
     <script src="script/main.js"></script>
-</body>
+  </body>
 </html>
